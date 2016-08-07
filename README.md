@@ -6,9 +6,9 @@
 * Habit Tracking Example
 * Inventory App Example
 * News App Example 
- *Connecting to an API
- *Parsing the response of the API
- *Handling error cases gracefully
+ * Connecting to an API
+ * Parsing the response of the API
+ * Handling error cases gracefully
 *QuizzApp Example
 *ReportCard App
 *TourGuideApp2 Example

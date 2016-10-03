@@ -90,7 +90,7 @@ public class DetailLayout extends Fragment {
                             Log.d("hh", String.valueOf(mProductArray.get(position).getpQuantity()));
                             Log.d("hhh", String.valueOf(id));
 //
-                            int orderNo = Integer.valueOf(edt.getText().toString()) + mProductArray.get(position).getpQuantity();
+                            int orderNo = Integer.valueOf(edt.getText().toString()) + mSalesArrayList.get(position).getsQuantityLeft();
 ////                       // mProductArray.add()
                             mProductDatabase.updateOrder(id, orderNo);
                             saleAdapter.notifyDataSetChanged();

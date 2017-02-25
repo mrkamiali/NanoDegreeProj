@@ -11,7 +11,7 @@ public class FragAdapter extends FragmentStatePagerAdapter {
     private ArrayList<Fragment> mFragmentArrayList;
     private Context mContext;
 
-    public FragAdapter(FragmentManager fm,ArrayList<Fragment> mFragmentArrayList) {
+    public FragAdapter(FragmentManager fm, ArrayList<Fragment> mFragmentArrayList) {
         super(fm);
         this.mFragmentArrayList = mFragmentArrayList;
 
